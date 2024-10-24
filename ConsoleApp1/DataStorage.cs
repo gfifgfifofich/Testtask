@@ -139,8 +139,12 @@ namespace ConsoleApp1
         public void Load(string filename)
 		{
 			data.Clear();
+            
+            //Создать файл если его небыло до этого
+            StreamWriter file = new StreamWriter(filename,true);
+            file.Close();
 
-			StreamReader sr = new StreamReader(filename);
+            StreamReader sr = new StreamReader(filename);
 			
 
 			string lastObject = "NULL";

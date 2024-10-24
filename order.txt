@@ -1,0 +1,14 @@
+4
+{
+	ID 4
+	Weight 4,62
+	District District1
+	DeliveryTime 2024-10-24 14:46:28
+}
+7
+{
+	ID 7
+	Weight 4,62
+	District District1
+	DeliveryTime 2024-10-24 14:46:28
+}

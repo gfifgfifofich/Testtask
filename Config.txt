@@ -1,0 +1,8 @@
+Config
+{
+	_deliveryLog ./log.txt
+	_deliveryOrder ./order.txt
+	_deliveryInput ./input.txt
+	_deliveryDistrict District1
+	_deliveryTime 2024-10-24 14:32:28
+}
